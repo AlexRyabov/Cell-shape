@@ -1,9 +1,4 @@
 # Cell-shape
-if you use this file please cite 
-
-Alexey Ryabov, Onur Kerimoglu, Elena Litchman, Irina Olenina, Leonilde Roselli, Alberto Basset, Elena Stanca, Bernd Blasius. 
-"Shape matters: cell geometry determines phytoplankton diversity"
-bioRxiv 2020.02.06.937219; doi: https://doi.org/10.1101/2020.02.06.937219
 
 MATLAB source code for calculating volume, surface area and other geometric characteristis of various geometric shapes
 
@@ -14,6 +9,12 @@ and also in CalculationsOfCellVolume&Surface.pdf
 To get surface area and volume we use the formulas 
 CellVolumeand Surface.mw  a Maple Script for deriving formulas for cell surface area and volumes
 CalculationsOfCellVolume&Surface.pdf is a pdf file of this script, in case zou do no have Maple. 
+
+if you use this file please cite 
+
+Alexey Ryabov, Onur Kerimoglu, Elena Litchman, Irina Olenina, Leonilde Roselli, Alberto Basset, Elena Stanca, Bernd Blasius. 
+"Shape matters: cell geometry determines phytoplankton diversity"
+bioRxiv 2020.02.06.937219; doi: https://doi.org/10.1101/2020.02.06.937219
 
 ## cellgeom.m  
   the main purpose to **calcualte volume and surface area** based on "..\data\CellSamples.xlsx"
