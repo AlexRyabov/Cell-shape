@@ -13,7 +13,9 @@ Alexey Ryabov, Onur Kerimoglu, Elena Litchman, Irina Olenina, Leonilde Roselli, 
 "Shape matters: cell geometry determines phytoplankton diversity"
 **bioRxiv** 2020.02.06.937219; doi: https://doi.org/10.1101/2020.02.06.937219
 
-#Description ## cellgeom.m  
+#Description# 
+
+##cellgeom.m##
 is a MATLAB script for calculating mean parameters. It takes data from "..\data\CellSamples.xlsx" and saves results into  "..\data\CellSamples_VA.xlsx"There is a flag, which allows to averages linear dimensions for each species+location before calculating volume, area, etc. 
 
 ### These parameters are calculated:
