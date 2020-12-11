@@ -22,7 +22,7 @@ The paramters of cell geometry calculated:
 <a href="https://www.codecogs.com/eqnedit.php?latex=R_s&space;=&space;\sqrt{\frac{A}{4\pi}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_s&space;=&space;\sqrt{\frac{A}{4\pi}}" title="R_s = \sqrt{\frac{A}{4\pi}}" /></a>
 
 * surface extension (inverse sphericity),
-<a href="https://www.codecogs.com/eqnedit.php?latex=\varepsilon&space;=&space;\frac{S}{4\pi&space;R^2_v}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\varepsilon&space;=&space;\frac{S}{4\pi&space;R^2_v}" title="\varepsilon = \frac{S}{4\pi R^2_v}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\varepsilon&space;=&space;\frac{A}{4\pi&space;R^2_v}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\varepsilon&space;=&space;\frac{A}{4\pi&space;R^2_v}" title="\varepsilon = \frac{A}{4\pi R^2_v}" /></a>
 
 * minimal, middle and maximal linear cell dimensions  (L_min, L_mid, L_max)
 * aspect ratio (r> for prolate cells and r<1 for oblate cells)
