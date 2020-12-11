@@ -6,6 +6,7 @@ File "../data/CellSamples.xlsx" contains data samples with linear dimensions of 
 and also in CalculationsOfCellVolume&Surface.pdf
 
 To derive formulas for the surface area and volume we use a Maple script **CellVolumeand Surface.mw**.  This script was also saved as **CalculationsOfCellVolume&Surface.pdf** in case you do not have Maple. 
+
 If you use this file please cite 
 
 Alexey Ryabov, Onur Kerimoglu, Elena Litchman, Irina Olenina, Leonilde Roselli, Alberto Basset, Elena Stanca, Bernd Blasius. 
