@@ -1,21 +1,28 @@
 # Cell-shape
-Data and source code (MATLAB) for calculating volume and surface area of various geometric shapes
+if you use this file please cite 
 
-File ../data/CellSamples.xlsx contains samples of linear dimentsion of plankton cells from of different geometry 
-the id of phytoplankton shapes can be found in the shape atals http://phytobioimaging.unisalento.it/Products/AtlasOfShapes.aspx?ID_Tipo=0
+Alexey Ryabov, Onur Kerimoglu, Elena Litchman, Irina Olenina, Leonilde Roselli, Alberto Basset, Elena Stanca, Bernd Blasius. 
+"Shape matters: cell geometry determines phytoplankton diversity"
+bioRxiv 2020.02.06.937219; doi: https://doi.org/10.1101/2020.02.06.937219
+
+MATLAB source code for calculating volume, surface area and other geometric characteristis of various geometric shapes
+
+File ../data/CellSamples.xlsx contains samples of linear dimentsions of plankton cells with different geometry 
+the Shape ID in this file correcpond to the shape ID in the shape atals http://phytobioimaging.unisalento.it/Products/AtlasOfShapes.aspx?ID_Tipo=0
+and also in CalculationsOfCellVolume&Surface.pdf
 
 To get surface area and volume we use the formulas 
 CellVolumeand Surface.mw  a Maple Script for deriving formulas for cell surface area and volumes
 CalculationsOfCellVolume&Surface.pdf is a pdf file of this script, in case zou do no have Maple. 
 
-cellgeom.m  
+## cellgeom.m  
   the main purpose to **calcualte volume and surface area** based on "..\data\CellSamples.xlsx"
   the script can  also averages linear dimensions for each species+location
   it saves data into  "..\data\CellSamples_VA.xlsx"
 
-The paramters of cell geometry calculated:
-* cell volume, V
-* cell surface area, A
+### The paramters of cell geometry calculated:
+* cell volume, *V*
+* cell surface area, *A*
 * equvivalent radius of a sphere with the same volume, 
    <a href="https://www.codecogs.com/eqnedit.php?latex=R_v&space;=&space;\left\(\frac{3}{4}&space;\frac{V}{\pi}\right\)^{1/3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_v&space;=&space;\left\(\frac{3}{4}&space;\frac{V}{\pi}\right\)^{1/3}" title="R_v = \left\(\frac{3}{4} \frac{V}{\pi}\right\)^{1/3}" /></a>
 * equvivalent radius of a sphere with the same area 
