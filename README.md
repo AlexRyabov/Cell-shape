@@ -1,6 +1,6 @@
 # Cell-shape
 
-MATLAB source code for calculating volume, surface area and other geometric characteristics of various geometric shapes. 
+MATLAB and Python source codes for calculating volume, surface area and other geometric characteristics of various geometric shapes. 
 
 File "../data/CellSamples.xlsx" contains data samples with linear dimensions of plankton cells with different geometry. The Shape ID in this file correspond to the shape ID in the shape atlas http://phytobioimaging.unisalento.it/Products/AtlasOfShapes.aspx?ID_Tipo=0
 and also in CalculationsOfCellVolume&Surface.pdf
@@ -15,10 +15,13 @@ Alexey Ryabov, Onur Kerimoglu, Elena Litchman, Irina Olenina, Leonilde Roselli, 
 
 ## Description
 
-## cellgeom.m
+## Main Scripts:
+### matlab/cellgeom.m
 is a MATLAB script for calculating mean parameters. It takes data from "..\data\CellSamples.xlsx" and saves results into  "..\data\CellSamples_VA.xlsx". There is a flag, which allows to average linear dimensions for each species+location before calculating volume, area, etc. 
+### python/main.py & calc_cell_geom.py
+are the equivalent Python (3.6) scripts, but they work at the moment for the datasets from Olenina et al., and not from Roselli et al.
 
-### These parameters are calculated:
+## Parameters calculated:
 * cell volume, *V*
 * cell surface area, *A*
 * equivalent radius of a sphere with the same volume, 
